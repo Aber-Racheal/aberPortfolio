@@ -1,0 +1,118 @@
+.aboutContainer{
+    display: flex;
+    margin: 5%;
+    gap: 0px;
+    height: 1000px;
+    
+}
+
+
+#myImage{
+    width: 70%;
+
+
+}
+
+.aboutContent{
+height: 600px;
+background-color: rgb(37, 37, 37);
+
+}
+.aboutH{
+    margin: 5%;
+padding-bottom: 0%;
+color: white;
+font-weight: lighter;
+}
+
+
+.aboutParagraph{
+    font-size: 20px;
+    font-style:normal;
+    color: white;
+    padding-left :5%;
+    font-style: normal; 
+    line-height: 30px;   
+}
+
+
+.aboutTitle{
+    font-size: 40px;
+    color: white;
+    padding-top: 0%;
+    padding-left: 5%;
+}
+
+
+
+.codeSkills{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    background-color:black;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: #ffa500 1px 3px 5px 5px;
+    justify-content: space-around;
+}
+
+
+.codeColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.codeColumn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.codeColumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#btnCV{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    border: orange;
+    margin-top: 3%;
+    margin-left: 5%
+}
+
+
+
+.skillParagraph{
+    color: white;
+    margin-top: 5%;
+}
+
+
+
+.about{
+    height: 750px;
+}
+
+
+.starrating{
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+
+.fifthStar{
+    color: white;
+    margin: 0%;
+    
+}

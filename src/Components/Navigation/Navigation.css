@@ -1,0 +1,55 @@
+.whole-navigation a{
+    gap:40px;
+}
+
+
+
+.navLinks{
+    gap: 50px;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 1%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+
+#myLogo{
+width: 40%;
+}
+
+#home{
+    font-size: 20px;
+ color: orange;
+    padding: 0%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#about{
+    font-size: 20px;
+    color: orange;
+    padding: 5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#projects{
+    font-size: 20px;
+    color: orange;
+    padding: 5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#contacts{
+    font-size: 20px;
+    color: orange;
+    padding: 0%;
+    text-decoration: none;
+    cursor: pointer;
+}

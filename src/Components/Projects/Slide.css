@@ -1,0 +1,100 @@
+.slideshow-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slideshow-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Each slide takes full width */
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: opacity 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .slide-image:hover {
+    transform: scale(1.09); /* Scale up on hover */
+    
+  }
+
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .slide-image {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+  }
+  
+  .slide-content {
+    text-align: center;
+  }
+  
+  .controls {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .control-btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    border: orange;
+    margin-top: 3%;
+    margin: 5%
+  }
+  
+  .prev-btn {
+    float: left;
+  }
+  
+  .next-btn {
+    float: right;
+  }
+  
+
+
+#wholeProject{
+    display: flex;
+    flex-direction: column;
+}  
+
+
+
+
+.aboutTitle{
+    font-size: 40px;
+    color: white;
+    padding-top: 0%;
+    padding-left: 5%;
+}
+
+
+
+.aboutH{
+    margin: 5%;
+padding-bottom: 0%;
+color: white;
+font-weight: lighter;
+}
+
+
+h2 a{
+    font-size: 30px;
+    color: white;
+}
+
